@@ -1,5 +1,5 @@
 
-
+#부분집합 구하기
 def backtrack(a, k, input):
     global MAXCANDIDATES
     c = [1, 0]
@@ -63,6 +63,7 @@ P = [1, 3, 6, 7, 10]
 backtrack(a, 0, 5)
 
 ############################################
+#수열 구하기
 def perm_r_1(a, k, N):
     if k == N:
         print(a)
